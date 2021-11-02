@@ -38,10 +38,6 @@ app.use((req, res, next) => {
     next();
 });
 
-//Static files
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static('Frontend'));
-
 const user = new User({
     username: process.env.ADMIN_USERNAME,
     password: process.env.ADMIN_PASSWORD,
