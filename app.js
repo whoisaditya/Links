@@ -48,5 +48,8 @@ const user = new User({
 
 app.use("/user", require("./api/routers/user"));
 app.use("/admin", require("./api/routers/admin"));
-  
+app.get("/", (req,res) => {
+    res.send("okay")
+    });
+
 app.listen(3000);
