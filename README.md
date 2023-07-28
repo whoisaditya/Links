@@ -6,6 +6,7 @@ Welcome to the **Links** project! This is a responsive webpage designed to serve
 - [Links - A Responsive Webpage for Organizing and Managing Links](#links---a-responsive-webpage-for-organizing-and-managing-links)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [Deployment](#deployment)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -20,6 +21,9 @@ Welcome to the **Links** project! This is a responsive webpage designed to serve
 
 ## Introduction
 **Links** is a responsive webpage designed to help individuals, content creators, and businesses share multiple links through a single URL. The project consists of an admin dashboard to manage the links easily and efficiently. Users can access the links and click on them to visit the respective destinations.
+
+## Deployment 
+The Links Backend is currently deployed using Vercel. You can access it [here](https://links-whoisaditya.vercel.app/).
 
 ## Getting Started
 ### Prerequisites

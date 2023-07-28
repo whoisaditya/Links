@@ -43,8 +43,6 @@ const user = new User({
     password: process.env.ADMIN_PASSWORD,
 });
 
-
-
 app.use("/user", require("./api/routers/user"));
 app.use("/admin", require("./api/routers/admin"));
 app.get('/', (req, res) => {
