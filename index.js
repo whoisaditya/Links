@@ -43,10 +43,15 @@ const user = new User({
     password: process.env.ADMIN_PASSWORD,
 });
 
+
+
 app.use("/user", require("./api/routers/user"));
 app.use("/admin", require("./api/routers/admin"));
-app.get("/", (req,res) => {
-    res.send("okay")
-    });
+app.get('/', (req, res) => {
+    res.status(200).json({
+        status: 200,
+        message: 'Links Backend Up and Running, Refer Documentation for Use'
+    })
+})
 
 app.listen(PORT);
